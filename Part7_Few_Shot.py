@@ -107,6 +107,6 @@ if __name__ == "__main__":
     )
 
     # An example with small input, so it selects all examples.
-    short_string = "加班申請問題"
+    short_string = "加班申請"
     ans = llm.invoke(dynamic_prompt.format(q=short_string))
     print(ans)
